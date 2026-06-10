@@ -4,99 +4,52 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-305" value="客户" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="20" y="31" width="93" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-306" value="预订记录" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="191" y="31" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-307" value="入住记录" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="392" y="31" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-308" value="账单记录" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="837" y="31" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-309" value="服务订单" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="594" y="67" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-310" value="1:N" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-305" target="MFzRX7BiyfJY26Z0sDoY-306">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-311" value="1:1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-306" target="MFzRX7BiyfJY26Z0sDoY-307">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-312" value="1:1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.06;entryX=0;entryY=0.13;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-307" target="MFzRX7BiyfJY26Z0sDoY-308">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="555" y="20" />
-              <mxPoint x="778" y="20" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-313" value="1:N" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0;entryY=0.49;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-307" target="MFzRX7BiyfJY26Z0sDoY-309">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="555" y="91" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-314" value="费用归集" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.87;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-309" target="MFzRX7BiyfJY26Z0sDoY-308">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="778" y="91" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-315" value="开始" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-315" value="开始" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="238" y="140" width="47" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-316" value="输入预订编号/客户姓名" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-316" value="输入预订编号/客户姓名" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="147" y="237" width="228" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-317" value="查询预订信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-317" value="查询预订信息" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="286" y="336" width="157" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-318" value="预订有效?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-318" value="预订有效?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="305" y="434" width="119" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-319" value="提示预订不存在或已失效" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-319" value="提示预订不存在或已失效" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="20" y="626" width="237" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-320" value="显示预订详情" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-320" value="显示预订详情" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="307" y="626" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-321" value="结束" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-321" value="结束" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="361" y="724" width="47" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-322" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-315" target="MFzRX7BiyfJY26Z0sDoY-316">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-322" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-315" target="MFzRX7BiyfJY26Z0sDoY-316">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-323" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-316" target="MFzRX7BiyfJY26Z0sDoY-317">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-323" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-316" target="MFzRX7BiyfJY26Z0sDoY-317">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="364" y="311" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-324" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-317" target="MFzRX7BiyfJY26Z0sDoY-318">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-324" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-317" target="MFzRX7BiyfJY26Z0sDoY-318">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-325" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.67;entryY=-0.01;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-318" target="MFzRX7BiyfJY26Z0sDoY-319">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-325" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.67;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-318" target="MFzRX7BiyfJY26Z0sDoY-319">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="241" y="589" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-326" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=-0.01;entryX=0.2;entryY=0.99;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-319" target="MFzRX7BiyfJY26Z0sDoY-316">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-326" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=-0.01;entryX=0.2;entryY=0.99;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-319" target="MFzRX7BiyfJY26Z0sDoY-316">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="123" y="589" />
@@ -104,14 +57,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-327" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-318" target="MFzRX7BiyfJY26Z0sDoY-320">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-327" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-318" target="MFzRX7BiyfJY26Z0sDoY-320">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="385" y="589" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MFzRX7BiyfJY26Z0sDoY-328" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-320" target="MFzRX7BiyfJY26Z0sDoY-321">
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-328" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-320" target="MFzRX7BiyfJY26Z0sDoY-321">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
