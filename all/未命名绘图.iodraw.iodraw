@@ -4,6 +4,53 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-305" value="客户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="31" width="93" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-306" value="预订记录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="191" y="31" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-307" value="入住记录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392" y="31" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-308" value="账单记录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="837" y="31" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-309" value="服务订单" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="594" y="67" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-310" value="1:N" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-305" target="MFzRX7BiyfJY26Z0sDoY-306">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-311" value="1:1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-306" target="MFzRX7BiyfJY26Z0sDoY-307">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-312" value="1:1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.06;entryX=0;entryY=0.13;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-307" target="MFzRX7BiyfJY26Z0sDoY-308">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="20" />
+              <mxPoint x="778" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-313" value="1:N" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-307" target="MFzRX7BiyfJY26Z0sDoY-309">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFzRX7BiyfJY26Z0sDoY-314" value="费用归集" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.87;rounded=0;" edge="1" parent="1" source="MFzRX7BiyfJY26Z0sDoY-309" target="MFzRX7BiyfJY26Z0sDoY-308">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="778" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
