@@ -4,92 +4,92 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-94" value="前台员工" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-94" value="前台员工" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="20" y="1130" width="35" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-95" value="结账界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-95" value="结账界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="240" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-96" value="BillingService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-96" value="BillingService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="466" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-97" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="qz07ekzOF9Q8kzTkCC1Z-96">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-97" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" vertex="1" parent="qz07ekzOF9Q8kzTkCC1Z-96">
           <mxGeometry x="70" y="419" width="10" height="932" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-98" value="CheckInService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-98" value="CheckInService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="666" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-99" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="qz07ekzOF9Q8kzTkCC1Z-98">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-99" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" vertex="1" parent="qz07ekzOF9Q8kzTkCC1Z-98">
           <mxGeometry x="70" y="159" width="10" height="166" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-100" value="CustomerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-100" value="CustomerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="866" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-101" value="RoomService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-101" value="RoomService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1066" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-102" value="CheckInDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-102" value="CheckInDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1266" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-103" value="BillingDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-103" value="BillingDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1466" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-104" value="CustomerDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-104" value="CustomerDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1666" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-105" value="RoomDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-105" value="RoomDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1866" y="1130" width="150" height="1446" as="geometry" />
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-106" value="输入房间号/入住编号" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-94" target="qz07ekzOF9Q8kzTkCC1Z-95">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-106" value="输入房间号/入住编号" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-94" target="qz07ekzOF9Q8kzTkCC1Z-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="214" y="1237" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-107" value="查询入住记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-99">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-107" value="查询入住记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-99">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="537" y="1289" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-108" value="根据房间号查询有效入住" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-99" target="qz07ekzOF9Q8kzTkCC1Z-102">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-108" value="根据房间号查询有效入住" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-99" target="qz07ekzOF9Q8kzTkCC1Z-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1052" y="1341" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-109" value="返回入住信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-102" target="qz07ekzOF9Q8kzTkCC1Z-99">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-109" value="返回入住信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-102" target="qz07ekzOF9Q8kzTkCC1Z-99">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1055" y="1393" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-110" value="显示入住详情" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-99" target="qz07ekzOF9Q8kzTkCC1Z-95">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-110" value="显示入住详情" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-99" target="qz07ekzOF9Q8kzTkCC1Z-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="538" y="1445" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-111" value="发起结账请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-94" target="qz07ekzOF9Q8kzTkCC1Z-95">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-111" value="发起结账请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-94" target="qz07ekzOF9Q8kzTkCC1Z-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="214" y="1497" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-112" value="计算账单(入住ID)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-97">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-112" value="计算账单(入住ID)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="437" y="1549" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-113" value="计算房费(入住天数*房价)" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-97">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-113" value="计算房费(入住天数*房价)" style="curved=1;endArrow=block;rounded=0;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="596" y="1601" />
@@ -97,7 +97,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-114" value="汇总增值服务费用" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-97">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-114" value="汇总增值服务费用" style="curved=1;endArrow=block;rounded=0;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="596" y="1683" />
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-115" value="计算总金额" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-97">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-115" value="计算总金额" style="curved=1;endArrow=block;rounded=0;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="596" y="1765" />
@@ -113,91 +113,91 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-116" value="显示账单明细+总金额" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-95">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-116" value="显示账单明细+总金额" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="438" y="1847" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-117" value="确认支付方式" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-94" target="qz07ekzOF9Q8kzTkCC1Z-95">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-117" value="确认支付方式" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-94" target="qz07ekzOF9Q8kzTkCC1Z-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="214" y="1899" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-118" value="完成结账(支付方式)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-97">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-118" value="完成结账(支付方式)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="435" y="1951" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-119" value="保存账单记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-103">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-119" value="保存账单记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-103">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1052" y="2003" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-120" value="保存成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-103" target="qz07ekzOF9Q8kzTkCC1Z-97">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-120" value="保存成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-103" target="qz07ekzOF9Q8kzTkCC1Z-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1055" y="2055" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-121" value="更新客户积分+余额(若储值支付)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-100">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-121" value="更新客户积分+余额(若储值支付)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-100">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="752" y="2107" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-122" value="更新客户信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-100" target="qz07ekzOF9Q8kzTkCC1Z-104">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-122" value="更新客户信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-100" target="qz07ekzOF9Q8kzTkCC1Z-104">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1350" y="2159" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-123" value="更新成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-104" target="qz07ekzOF9Q8kzTkCC1Z-100">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-123" value="更新成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-104" target="qz07ekzOF9Q8kzTkCC1Z-100">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1353" y="2211" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-124" value="更新房间状态为&quot;空闲&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-101">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-124" value="更新房间状态为&quot;空闲&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-101">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="852" y="2263" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-125" value="更新房间状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-101" target="qz07ekzOF9Q8kzTkCC1Z-105">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-125" value="更新房间状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-101" target="qz07ekzOF9Q8kzTkCC1Z-105">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1550" y="2315" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-126" value="更新成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-105" target="qz07ekzOF9Q8kzTkCC1Z-101">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-126" value="更新成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-105" target="qz07ekzOF9Q8kzTkCC1Z-101">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1553" y="2367" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-127" value="返回结账成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-95">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-127" value="返回结账成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-97" target="qz07ekzOF9Q8kzTkCC1Z-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="438" y="2419" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-128" value="打印账单+退房凭证" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-94">
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-128" value="打印账单+退房凭证" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=20;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-95" target="qz07ekzOF9Q8kzTkCC1Z-94">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="217" y="2471" />
