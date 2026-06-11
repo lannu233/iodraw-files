@@ -4,6 +4,169 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-30" value="前台员工" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="35" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-31" value="入住界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="277" y="100" width="150" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-32" value="CheckInService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="150" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-33" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="qz07ekzOF9Q8kzTkCC1Z-32">
+          <mxGeometry x="70" y="419" width="10" height="634" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-34" value="ReservationService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="743" y="100" width="151" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-35" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="qz07ekzOF9Q8kzTkCC1Z-34">
+          <mxGeometry x="70" y="159" width="10" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-36" value="RoomService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="944" y="100" width="150" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-37" value="ReservationDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1144" y="100" width="150" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-38" value="CheckInDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="100" width="150" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-39" value="RoomDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1544" y="100" width="150" height="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-40" value="输入预订编号/客户姓名" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-30" target="qz07ekzOF9Q8kzTkCC1Z-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-41" value="查询预订信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-31" target="qz07ekzOF9Q8kzTkCC1Z-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="594" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-42" value="根据编号查询预订" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-35" target="qz07ekzOF9Q8kzTkCC1Z-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1029" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-43" value="返回预订信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-37" target="qz07ekzOF9Q8kzTkCC1Z-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-44" value="显示预订详情" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-35" target="qz07ekzOF9Q8kzTkCC1Z-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-45" value="确认客户身份+办理入住" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-30" target="qz07ekzOF9Q8kzTkCC1Z-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-46" value="创建入住记录(预订ID)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-31" target="qz07ekzOF9Q8kzTkCC1Z-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="472" y="519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-47" value="校验预订状态是否有效" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-33" target="qz07ekzOF9Q8kzTkCC1Z-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-48" value="预订有效" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-34" target="qz07ekzOF9Q8kzTkCC1Z-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-49" value="保存入住记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-33" target="qz07ekzOF9Q8kzTkCC1Z-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1007" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-50" value="保存成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-38" target="qz07ekzOF9Q8kzTkCC1Z-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="727" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-51" value="更新预订状态为&quot;已核销&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-33" target="qz07ekzOF9Q8kzTkCC1Z-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707" y="779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-52" value="更新预订状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-34" target="qz07ekzOF9Q8kzTkCC1Z-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1027" y="831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-53" value="更新成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-37" target="qz07ekzOF9Q8kzTkCC1Z-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="883" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-54" value="更新房间状态为&quot;已入住&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-33" target="qz07ekzOF9Q8kzTkCC1Z-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807" y="935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-55" value="更新房间状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-36" target="qz07ekzOF9Q8kzTkCC1Z-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1327" y="987" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-56" value="更新成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-39" target="qz07ekzOF9Q8kzTkCC1Z-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="1039" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-57" value="返回入住成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-33" target="qz07ekzOF9Q8kzTkCC1Z-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="1091" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qz07ekzOF9Q8kzTkCC1Z-58" value="显示入住成功+打印入住单" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qz07ekzOF9Q8kzTkCC1Z-31" target="qz07ekzOF9Q8kzTkCC1Z-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="1143" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
