@@ -8,10 +8,10 @@
           <mxGeometry x="880" y="2731" width="116" height="129" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-284" value="服务端创建全局Session对象" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2731" width="212" height="129" as="geometry" />
+          <mxGeometry x="1150" y="2728" width="212" height="129" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-285" value="Session中存入用户ID、账号、角色、登录时间" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1312" y="2722" width="255" height="138" as="geometry" />
+          <mxGeometry x="1450" y="2722" width="177" height="138" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-286" value="设置Session默认过期时间（30分钟）" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1690" y="2722" width="182" height="138" as="geometry" />
