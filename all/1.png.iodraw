@@ -1,0 +1,83 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="Ezj51xKV8Iy4E_lezaTM">
+    <mxGraphModel dx="1744" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-1" value="前端客户端" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="20" y="97" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-2" value="API网关层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="310" y="97" width="131" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-3" value="服务注册中心" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="633" y="34" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-4" value="业务服务集群" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="971" y="97" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-5" value="Redis缓存/消息队列" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="20" width="202" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-6" value="独立业务数据库" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1293" y="119" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-7" value="发起业务请求" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.08;entryX=0;entryY=0.1;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-1" target="ZtiJ_fmaggkdcU_qDcNI-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="79" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-8" value="请求路由/鉴权限流" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=0.01;entryX=0;entryY=0.5;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-2" target="ZtiJ_fmaggkdcU_qDcNI-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-9" value="筛选健康可用实例" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0.09;entryY=0.01;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-3" target="ZtiJ_fmaggkdcU_qDcNI-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-10" value="调用基础组件" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=0.01;entryX=0;entryY=0.5;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-4" target="ZtiJ_fmaggkdcU_qDcNI-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1203" y="44" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-11" value="数据读写交互" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.28;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-4" target="ZtiJ_fmaggkdcU_qDcNI-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1203" y="122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-12" value="数据结果回传" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=1;entryY=0.95;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-6" target="ZtiJ_fmaggkdcU_qDcNI-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1203" y="164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-13" value="业务封装返回" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=1;entryY=0.56;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-4" target="ZtiJ_fmaggkdcU_qDcNI-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="129" />
+              <mxPoint x="537" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtiJ_fmaggkdcU_qDcNI-14" value="统一响应" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;fontSize=20;" parent="1" source="ZtiJ_fmaggkdcU_qDcNI-2" target="ZtiJ_fmaggkdcU_qDcNI-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
