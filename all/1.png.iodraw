@@ -14,7 +14,7 @@
           <mxGeometry x="1312" y="2722" width="255" height="138" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-286" value="设置Session默认过期时间（30分钟）" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1617" y="2722" width="255" height="138" as="geometry" />
+          <mxGeometry x="1690" y="2722" width="182" height="138" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-287" value="用户持续访问页面/操作功能" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="2000" y="2722" width="166" height="138" as="geometry" />
