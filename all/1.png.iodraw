@@ -26,7 +26,7 @@
           <mxGeometry x="1222" y="54" width="252" height="106" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-34" value="Canvas API - 图像实时处理" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1525" y="54" width="249" height="49" as="geometry" />
+          <mxGeometry x="1525" y="54" width="249" height="106" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-35" value="Java Web服务" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="799" y="313" width="161" height="137" as="geometry" />
@@ -91,11 +91,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VipNZbH5eivZjSkLajvf-54" value="HTTP/REST API" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-35" target="VipNZbH5eivZjSkLajvf-46">
+        <mxCell id="VipNZbH5eivZjSkLajvf-54" value="HTTP/REST API" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="135" y="326" />
+              <mxPoint x="135" y="300" />
             </Array>
+            <mxPoint x="799" y="374.67999999999984" as="sourcePoint" />
+            <mxPoint x="145" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
