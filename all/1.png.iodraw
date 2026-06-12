@@ -23,40 +23,40 @@
           <mxGeometry x="90" y="822" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-113" value="NMS非极大值抑制去重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="25" y="2260" width="218" height="49" as="geometry" />
+          <mxGeometry x="10" y="2075" width="218" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-114" value="返回高精度检测结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="317" y="2367" width="206" height="49" as="geometry" />
+          <mxGeometry x="302" y="2182" width="206" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-115" value="策略2: MTCNN" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="473" y="1015" width="152" height="152" as="geometry" />
+          <mxGeometry x="458" y="830" width="152" height="152" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-116" value="检查PyTorch环境可用性" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="435" y="1216" width="230" height="49" as="geometry" />
+          <mxGeometry x="420" y="1031" width="230" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-117" value="加载MTCNN模型（CPU运行）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="423" y="1315" width="254" height="67" as="geometry" />
+          <mxGeometry x="408" y="1130" width="254" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-118" value="多尺度人脸检测 + 关键点定位" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="457" y="1432" width="185" height="67" as="geometry" />
+          <mxGeometry x="442" y="1247" width="185" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-119" value="检测成功?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="489" y="1571" width="120" height="120" as="geometry" />
+          <mxGeometry x="474" y="1386" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-120" value="过滤低置信度结果（置信度≥0.8）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="293" y="2251" width="253" height="67" as="geometry" />
+          <mxGeometry x="278" y="2066" width="253" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-121" value="策略3: OpenCV Cascade" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="568" y="1764" width="221" height="221" as="geometry" />
+          <mxGeometry x="553" y="1579" width="221" height="221" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-122" value="加载OpenCV级联分类器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="564" y="2035" width="230" height="49" as="geometry" />
+          <mxGeometry x="549" y="1850" width="230" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-123" value="多分类器组合检测（正面/侧面人脸）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="557" y="2134" width="244" height="67" as="geometry" />
+          <mxGeometry x="542" y="1949" width="244" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-124" value="IoU交并比去重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="596" y="2260" width="164" height="49" as="geometry" />
+          <mxGeometry x="581" y="2075" width="164" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-107" target="VipNZbH5eivZjSkLajvf-108">
           <mxGeometry relative="1" as="geometry">
@@ -95,7 +95,7 @@
         <mxCell id="VipNZbH5eivZjSkLajvf-131" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-113" target="VipNZbH5eivZjSkLajvf-114">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="134" y="2342" />
+              <mxPoint x="119" y="2157" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -137,7 +137,7 @@
         <mxCell id="VipNZbH5eivZjSkLajvf-138" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.88;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-119" target="VipNZbH5eivZjSkLajvf-120">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="1728" />
+              <mxPoint x="405" y="1543" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -149,7 +149,7 @@
         <mxCell id="VipNZbH5eivZjSkLajvf-140" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.88;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-119" target="VipNZbH5eivZjSkLajvf-121">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="679" y="1728" />
+              <mxPoint x="664" y="1543" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -171,7 +171,7 @@
         <mxCell id="VipNZbH5eivZjSkLajvf-144" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.11;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-124" target="VipNZbH5eivZjSkLajvf-114">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="679" y="2342" />
+              <mxPoint x="664" y="2157" />
             </Array>
           </mxGeometry>
         </mxCell>
