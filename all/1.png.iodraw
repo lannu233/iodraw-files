@@ -62,7 +62,7 @@
           <mxGeometry x="2606" y="425" width="189" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-46" value="Python AI服务" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="55" y="434" width="160" height="49" as="geometry" />
+          <mxGeometry x="55" y="434" width="160" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-47" value="Flask框架 - API服务封装" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="265" y="434" width="231" height="116" as="geometry" />
