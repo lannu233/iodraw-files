@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Ezj51xKV8Iy4E_lezaTM">
-    <mxGraphModel dx="1020" dy="2394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2040" dy="4789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -286,6 +286,111 @@
             <Array as="points">
               <mxPoint x="663" y="1053" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-283" value="用户登录成功" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2731" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-284" value="服务端创建全局Session对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="2731" width="256" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-285" value="Session中存入用户ID、账号、角色、登录时间" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="2722" width="255" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-286" value="设置Session默认过期时间（30分钟）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1617" y="2722" width="255" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-287" value="用户持续访问页面/操作功能" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1922" y="2722" width="244" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-288" value="检测Session是否超时?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2216" y="2654" width="203" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-289" value="刷新Session过期时间，续期" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2524" y="2610" width="256" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-290" value="Session自动失效，清空数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2524" y="2799" width="256" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-291" value="前端重定向至登录页" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="2799" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-292" value="用户主动点击登出?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2227" y="2907" width="183" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-293" value="手动销毁Session，清空服务端数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2524" y="2965" width="256" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-294" value="会话结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2869" y="2974" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-295" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-283" target="VipNZbH5eivZjSkLajvf-284">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-296" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-284" target="VipNZbH5eivZjSkLajvf-285">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-297" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-285" target="VipNZbH5eivZjSkLajvf-286">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-298" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-286" target="VipNZbH5eivZjSkLajvf-287">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-299" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-287" target="VipNZbH5eivZjSkLajvf-288">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-300" value="未超时" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.33;entryX=0.25;entryY=1;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-288" target="VipNZbH5eivZjSkLajvf-289">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2472" y="2703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-301" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.27;entryX=0.65;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-289" target="VipNZbH5eivZjSkLajvf-287">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2472" y="2619" />
+              <mxPoint x="2191" y="2619" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-302" value="已超时" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.72;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-288" target="VipNZbH5eivZjSkLajvf-290">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2472" y="2823" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-303" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-290" target="VipNZbH5eivZjSkLajvf-291">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-304" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-287" target="VipNZbH5eivZjSkLajvf-292">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2191" y="2999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-305" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-292" target="VipNZbH5eivZjSkLajvf-293">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-306" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-293" target="VipNZbH5eivZjSkLajvf-294">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
