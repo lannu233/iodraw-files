@@ -38,10 +38,10 @@
           <mxGeometry x="1348" y="235" width="190" height="145" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-38" value="DAO数据访问 - 数据库交互" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1588" y="243" width="250" height="49" as="geometry" />
+          <mxGeometry x="1588" y="243" width="250" height="127" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-39" value="Session会话管理 - 用户状态维护" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1887" y="235" width="186" height="67" as="geometry" />
+          <mxGeometry x="1887" y="235" width="186" height="135" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-40" value="权限控制Filter - 访问权限校验" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="2123" y="235" width="175" height="135" as="geometry" />
