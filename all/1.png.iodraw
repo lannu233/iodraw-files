@@ -14,13 +14,13 @@
           <mxGeometry x="355" y="523" width="117" height="117" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-110" value="加载ONNX模型（GPU加速）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="624" width="259" height="49" as="geometry" />
+          <mxGeometry x="10" y="670" width="259" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-111" value="执行推理计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="71" y="723" width="158" height="49" as="geometry" />
+          <mxGeometry x="61" y="769" width="158" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-112" value="推理成功?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="822" width="120" height="120" as="geometry" />
+          <mxGeometry x="80" y="868" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-113" value="NMS非极大值抑制去重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="10" y="2075" width="218" height="49" as="geometry" />
