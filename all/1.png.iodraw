@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VipNZbH5eivZjSkLajvf-107" value="输入图片" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="345" y="20" width="124" height="49" as="geometry" />
+          <mxGeometry x="352" y="110" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-108" value="策略1: YOLOv8-Face ONNX" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="286" y="119" width="241" height="241" as="geometry" />
+          <mxGeometry x="293" y="209" width="241" height="241" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-109" value="GPU可用?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="348" y="433" width="117" height="117" as="geometry" />
+          <mxGeometry x="355" y="523" width="117" height="117" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-110" value="加载ONNX模型（GPU加速）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="624" width="259" height="49" as="geometry" />
