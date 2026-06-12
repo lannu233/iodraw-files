@@ -35,7 +35,7 @@
           <mxGeometry x="1093" y="235" width="205" height="145" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-37" value="Service业务逻辑 - 核心业务规则执行" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1348" y="235" width="190" height="67" as="geometry" />
+          <mxGeometry x="1348" y="235" width="190" height="145" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-38" value="DAO数据访问 - 数据库交互" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1588" y="243" width="250" height="49" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry x="1887" y="235" width="186" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-40" value="权限控制Filter - 访问权限校验" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2123" y="235" width="175" height="67" as="geometry" />
+          <mxGeometry x="2123" y="235" width="175" height="135" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-41" value="MySQL数据库" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1593" y="585" width="110" height="126" as="geometry" />
