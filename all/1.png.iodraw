@@ -11,7 +11,7 @@
           <mxGeometry x="1558" y="560" width="1282" height="181" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-29" value="业务层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="57" y="210" width="2276" height="117" as="geometry" />
+          <mxGeometry x="57" y="210" width="2276" height="200" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-30" value="表现层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="789" y="20" width="1019" height="117" as="geometry" />
