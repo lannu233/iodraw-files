@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VipNZbH5eivZjSkLajvf-27" value="AI层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="20" y="399" width="1508" height="119" as="geometry" />
+          <mxGeometry x="20" y="399" width="1508" height="181" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-28" value="数据层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1548" y="399" width="1282" height="119" as="geometry" />
