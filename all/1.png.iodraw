@@ -49,6 +49,11 @@
         <mxCell id="VipNZbH5eivZjSkLajvf-195" value="AdminServlet 管理员管理&#xa;后台全功能接口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1278" y="742" width="242" height="67" as="geometry" />
         </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-196">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2234.1666666666665" y="451" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-196" value="PythonServiceClient AI服务调用&#xa;HTTP客户端/超时/重试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1557" y="409" width="228" height="84" as="geometry" />
         </mxCell>
@@ -156,14 +161,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1600" y="373" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VipNZbH5eivZjSkLajvf-222" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=1.01;entryX=0;entryY=0.4;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-196" target="VipNZbH5eivZjSkLajvf-205">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1847" y="519" />
-              <mxPoint x="1847" y="544" />
             </Array>
           </mxGeometry>
         </mxCell>
