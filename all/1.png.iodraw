@@ -47,13 +47,13 @@
           <mxGeometry x="2123" y="235" width="175" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-41" value="MySQL数据库" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1583" y="424" width="110" height="69" as="geometry" />
+          <mxGeometry x="1583" y="424" width="110" height="126" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-42" value="用户数据 - 账号/权限/配置" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1743" y="434" width="253" height="49" as="geometry" />
+          <mxGeometry x="1743" y="434" width="253" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-43" value="图片数据 - 存储/处理/审核信息" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2046" y="425" width="207" height="67" as="geometry" />
+          <mxGeometry x="2046" y="425" width="207" height="125" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-44" value="流程数据 - 自定义处理流程" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="2303" y="434" width="254" height="49" as="geometry" />
