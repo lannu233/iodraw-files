@@ -32,13 +32,13 @@
           <mxGeometry x="2830" y="2799" width="204" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-292" value="用户主动点击登出?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2227" y="2907" width="183" height="183" as="geometry" />
+          <mxGeometry x="2216" y="3050" width="183" height="183" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-293" value="手动销毁Session，清空服务端数据" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2524" y="2965" width="256" height="67" as="geometry" />
+          <mxGeometry x="2513" y="3108" width="256" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-294" value="会话结束" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2869" y="2974" width="125" height="49" as="geometry" />
+          <mxGeometry x="2858" y="3117" width="125" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-295" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=20;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-283" target="VipNZbH5eivZjSkLajvf-284">
           <mxGeometry relative="1" as="geometry">
