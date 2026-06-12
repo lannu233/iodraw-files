@@ -8,7 +8,7 @@
           <mxGeometry x="800" y="2731" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-284" value="服务端创建全局Session对象" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1006" y="2731" width="256" height="49" as="geometry" />
+          <mxGeometry x="1006" y="2731" width="256" height="129" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-285" value="Session中存入用户ID、账号、角色、登录时间" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1312" y="2722" width="255" height="138" as="geometry" />
