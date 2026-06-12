@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VipNZbH5eivZjSkLajvf-27" value="AI层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="20" y="399" width="1508" height="181" as="geometry" />
+          <mxGeometry x="30" y="560" width="1508" height="181" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-28" value="数据层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1548" y="399" width="1282" height="181" as="geometry" />
+          <mxGeometry x="1558" y="560" width="1282" height="181" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-29" value="业务层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="57" y="210" width="2276" height="117" as="geometry" />
@@ -47,37 +47,37 @@
           <mxGeometry x="2123" y="235" width="175" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-41" value="MySQL数据库" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1583" y="424" width="110" height="126" as="geometry" />
+          <mxGeometry x="1593" y="585" width="110" height="126" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-42" value="用户数据 - 账号/权限/配置" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1743" y="434" width="253" height="116" as="geometry" />
+          <mxGeometry x="1753" y="595" width="253" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-43" value="图片数据 - 存储/处理/审核信息" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2046" y="425" width="207" height="125" as="geometry" />
+          <mxGeometry x="2056" y="586" width="207" height="125" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-44" value="流程数据 - 自定义处理流程" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2303" y="434" width="254" height="116" as="geometry" />
+          <mxGeometry x="2313" y="595" width="254" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-45" value="违规记录 - 内容安全审核结果" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2606" y="425" width="189" height="125" as="geometry" />
+          <mxGeometry x="2616" y="586" width="189" height="125" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-46" value="Python AI服务" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="55" y="434" width="160" height="116" as="geometry" />
+          <mxGeometry x="65" y="595" width="160" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-47" value="Flask框架 - API服务封装" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="265" y="434" width="231" height="116" as="geometry" />
+          <mxGeometry x="275" y="595" width="231" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-48" value="模型管理器 - 模型加载/缓存/调度" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="546" y="425" width="206" height="125" as="geometry" />
+          <mxGeometry x="556" y="586" width="206" height="125" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-49" value="图像识别模块 - 人脸/物体/车牌/OCR" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="802" y="425" width="213" height="135" as="geometry" />
+          <mxGeometry x="812" y="586" width="213" height="135" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-50" value="内容审核模块 - NSFW/敏感词检测" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="425" width="188" height="135" as="geometry" />
+          <mxGeometry x="1075" y="586" width="188" height="135" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-51" value="AI处理模块 - 超分/滤镜/裁剪等" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1303" y="425" width="190" height="135" as="geometry" />
+          <mxGeometry x="1313" y="586" width="190" height="135" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-52" value="HTTP/REST API" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-31" target="VipNZbH5eivZjSkLajvf-35">
           <mxGeometry relative="1" as="geometry">
