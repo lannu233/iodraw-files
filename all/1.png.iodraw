@@ -35,19 +35,19 @@
           <mxGeometry x="2103" y="115" width="178" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-364" value="后端上传结果" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="320" width="147" height="147" as="geometry" />
+          <mxGeometry x="2331" y="74" width="147" height="147" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-365" value="展示上传失败提示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1536" y="320" width="190" height="49" as="geometry" />
+          <mxGeometry x="2597" y="74" width="190" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-366" value="隐藏进度条" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="419" width="141" height="49" as="geometry" />
+          <mxGeometry x="2621" y="173" width="141" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-367" value="将新图片动态添加至图片画廊列表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1776" y="410" width="253" height="67" as="geometry" />
+          <mxGeometry x="2837" y="164" width="253" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-368" value="展示上传成功提示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2079" y="419" width="190" height="49" as="geometry" />
+          <mxGeometry x="3140" y="173" width="190" height="49" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-369" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-354" target="VipNZbH5eivZjSkLajvf-355">
           <mxGeometry relative="1" as="geometry">
@@ -119,14 +119,14 @@
         <mxCell id="VipNZbH5eivZjSkLajvf-380" value="上传失败" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.32;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-364" target="VipNZbH5eivZjSkLajvf-365">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1476" y="344" />
+              <mxPoint x="2537" y="98" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-381" value="上传成功" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-364" target="VipNZbH5eivZjSkLajvf-366">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1476" y="443" />
+              <mxPoint x="2537" y="197" />
             </Array>
           </mxGeometry>
         </mxCell>
