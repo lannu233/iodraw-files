@@ -183,6 +183,198 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-734" value="发现缺陷" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1960" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-735" value="记录缺陷" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2059" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-736" value="填写缺陷信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="2158" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-737" value="缺陷分类" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2257" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-738" value="严重程度" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="436" y="2356" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-739" value="立即修复，暂停测试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2543" width="205" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-740" value="1天内修复，跟踪进度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2543" width="212" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-741" value="3天内修复" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="537" y="2543" width="133" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-742" value="下个版本修复" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="721" y="2543" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-743" value="开发修复" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2642" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-744" value="修复完成提测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="339" y="2741" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-745" value="验证修复" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="2840" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-746" value="验证通过?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="358" y="2939" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-747" value="关闭缺陷" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="3132" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-748" value="打回重新修复" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="509" y="3132" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-749" value="缺陷复盘" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="334" y="3231" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-750" value="统计缺陷根因" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="319" y="3330" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-751" value="优化测试策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="3429" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-752" value="缺陷统计报表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="3528" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-753" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-734" target="VipNZbH5eivZjSkLajvf-735">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-754" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-735" target="VipNZbH5eivZjSkLajvf-736">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-755" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-736" target="VipNZbH5eivZjSkLajvf-737">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-756" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-737" target="VipNZbH5eivZjSkLajvf-738">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-757" value="P0-致命" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.63;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-738" target="VipNZbH5eivZjSkLajvf-739">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="123" y="2507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-758" value="P1-严重" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-738" target="VipNZbH5eivZjSkLajvf-740">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="2507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-759" value="P2-一般" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-738" target="VipNZbH5eivZjSkLajvf-741">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="2507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-760" value="P3-轻微" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-738" target="VipNZbH5eivZjSkLajvf-742">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="2507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-761" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-739" target="VipNZbH5eivZjSkLajvf-743">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="123" y="2617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-762" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.06;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-740" target="VipNZbH5eivZjSkLajvf-743">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="2617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-763" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.93;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-741" target="VipNZbH5eivZjSkLajvf-743">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="2617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-764" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.29;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-742" target="VipNZbH5eivZjSkLajvf-743">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="2617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-765" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-743" target="VipNZbH5eivZjSkLajvf-744">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="2716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-766" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-744" target="VipNZbH5eivZjSkLajvf-745">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-767" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-745" target="VipNZbH5eivZjSkLajvf-746">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-768" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.39;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-746" target="VipNZbH5eivZjSkLajvf-747">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="3096" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-769" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=1;entryX=0.31;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-746" target="VipNZbH5eivZjSkLajvf-748">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="3096" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-770" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.54;exitY=0;entryX=0.93;entryY=1;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-748" target="VipNZbH5eivZjSkLajvf-743">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="603" y="3096" />
+              <mxPoint x="603" y="2716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-771" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-747" target="VipNZbH5eivZjSkLajvf-749">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-772" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-749" target="VipNZbH5eivZjSkLajvf-750">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-773" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-750" target="VipNZbH5eivZjSkLajvf-751">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VipNZbH5eivZjSkLajvf-774" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="VipNZbH5eivZjSkLajvf-751" target="VipNZbH5eivZjSkLajvf-752">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
