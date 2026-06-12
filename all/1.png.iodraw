@@ -17,7 +17,7 @@
           <mxGeometry x="1617" y="2722" width="255" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-287" value="用户持续访问页面/操作功能" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1922" y="2722" width="244" height="67" as="geometry" />
+          <mxGeometry x="1922" y="2722" width="244" height="138" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-288" value="检测Session是否超时?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="2216" y="2654" width="203" height="203" as="geometry" />
