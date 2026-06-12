@@ -68,10 +68,10 @@
           <mxGeometry x="265" y="434" width="231" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-48" value="模型管理器 - 模型加载/缓存/调度" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="546" y="425" width="206" height="67" as="geometry" />
+          <mxGeometry x="546" y="425" width="206" height="125" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-49" value="图像识别模块 - 人脸/物体/车牌/OCR" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="802" y="425" width="213" height="67" as="geometry" />
+          <mxGeometry x="802" y="425" width="213" height="135" as="geometry" />
         </mxCell>
         <mxCell id="VipNZbH5eivZjSkLajvf-50" value="内容审核模块 - NSFW/敏感词检测" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1065" y="425" width="188" height="67" as="geometry" />
