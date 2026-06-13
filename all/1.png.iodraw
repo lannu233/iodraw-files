@@ -62,14 +62,12 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1134" y="1274" />
-              <mxPoint x="1140" y="1490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_hJs87dVP7s7XDmmndLh-15" value="未进入可视区" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.66;entryX=1;entryY=0.5;rounded=0;" edge="1" parent="1" source="_hJs87dVP7s7XDmmndLh-5" target="_hJs87dVP7s7XDmmndLh-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="980" y="1470" />
               <mxPoint x="1134" y="1356" />
             </Array>
           </mxGeometry>
