@@ -13,6 +13,107 @@
             <mxPoint x="187.00000000000023" y="1754" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-138" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1000" width="150" height="844" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-139" value="TrainingPanel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="322" y="1000" width="150" height="844" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-140" value="TrainingServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="577" y="1000" width="157" height="844" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-141" value="TrainingDAOImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="833" y="1000" width="150" height="844" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-142" value="TrainingRecordDAOImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="1000" width="189" height="844" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-143" value="点击&quot;添加课程&quot;按钮" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-138" target="WFRxThqdzMOGrH6SurRp-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="1107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-144" value="addTraining(training)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-139" target="WFRxThqdzMOGrH6SurRp-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="1159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-145" value="add(training)+saveToFile()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-140" target="WFRxThqdzMOGrH6SurRp-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="1211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-146" value="成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-141" target="WFRxThqdzMOGrH6SurRp-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="1263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-147" value="成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-140" target="WFRxThqdzMOGrH6SurRp-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-148" value="刷新上方课程表格" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-139" target="WFRxThqdzMOGrH6SurRp-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="1367" />
+              <mxPoint x="448" y="1397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-149" value="选择员工+课程，点击&quot;添加记录&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-138" target="WFRxThqdzMOGrH6SurRp-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="1449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-150" value="addTrainingRecord(record)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-139" target="WFRxThqdzMOGrH6SurRp-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="1501" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-151" value="add(record)+saveToFile()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-140" target="WFRxThqdzMOGrH6SurRp-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="1553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-152" value="成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-142" target="WFRxThqdzMOGrH6SurRp-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="903" y="1605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-153" value="成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-140" target="WFRxThqdzMOGrH6SurRp-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-154" value="刷新下方参训记录表格" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-139" target="WFRxThqdzMOGrH6SurRp-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="1709" />
+              <mxPoint x="448" y="1739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
