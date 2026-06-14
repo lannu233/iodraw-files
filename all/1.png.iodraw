@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Ezj51xKV8Iy4E_lezaTM">
-    <mxGraphModel dx="1744" dy="7" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,90 +11,6 @@
               <mxPoint x="470" y="670" />
             </Array>
             <mxPoint x="187.00000000000023" y="1754" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-100" value="用户切换面板" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="163" y="1870" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-101" value="Calendar计算30天后日期" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="122" y="1969" width="236" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-102" value="遍历contractService.findAll()" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="112" y="2067" width="257" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-103" value="status=有效 且 endDate在[今天,30天后]?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="117" y="2184" width="246" height="246" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-104" value="expiring计数+1" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="68" y="2503" width="167" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-105" value="跳过" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="284" y="2503" width="93" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-106" value="expiring &gt; 0?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="160" y="2601" width="162" height="162" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-107" value="状态栏红色警告:&#xa;N份合同即将到期" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2836" width="182" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-108" value="状态栏正常显示黑色文字" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="252" y="2845" width="236" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-109" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-100" target="WFRxThqdzMOGrH6SurRp-101">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-110" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-101" target="WFRxThqdzMOGrH6SurRp-102">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-111" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-102" target="WFRxThqdzMOGrH6SurRp-103">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-112" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-103" target="WFRxThqdzMOGrH6SurRp-104">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="151" y="2466" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-113" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-103" target="WFRxThqdzMOGrH6SurRp-105">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="330" y="2466" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-114" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.07;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-104" target="WFRxThqdzMOGrH6SurRp-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="151" y="2576" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.92;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-105" target="WFRxThqdzMOGrH6SurRp-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="330" y="2576" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-116" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-106" target="WFRxThqdzMOGrH6SurRp-107">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="111" y="2800" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-117" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-106" target="WFRxThqdzMOGrH6SurRp-108">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="370" y="2800" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
