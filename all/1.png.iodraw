@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Ezj51xKV8Iy4E_lezaTM">
-    <mxGraphModel dx="1744" dy="7" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,128 +11,6 @@
               <mxPoint x="470" y="670" />
             </Array>
             <mxPoint x="187.00000000000023" y="1754" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-155" value="640×640输入图像" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="238" y="1870" width="183" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-156" value="CSPDarknet骨干网络" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="226" y="1969" width="207" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-157" value="特征图P3 80×80" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2067" width="173" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-158" value="特征图P4 40×40" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="243" y="2067" width="173" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-159" value="特征图P5 20×20" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="466" y="2067" width="173" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-160" value="PAN-FPN特征金字塔" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="229" y="2166" width="201" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-161" value="解耦检测头-分类分支" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="95" y="2265" width="210" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-162" value="解耦检测头-回归分支" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="355" y="2265" width="210" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-163" value="类别概率" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="138" y="2363" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-164" value="边界框坐标" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="389" y="2363" width="141" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-165" value="NMS后处理" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="261" y="2462" width="137" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-166" value="最终检测结果" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="251" y="2561" width="157" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-167" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-155" target="WFRxThqdzMOGrH6SurRp-156">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-168" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.96;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-156" target="WFRxThqdzMOGrH6SurRp-157">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="107" y="2042" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-169" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-156" target="WFRxThqdzMOGrH6SurRp-158">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-170" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-156" target="WFRxThqdzMOGrH6SurRp-159">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="553" y="2042" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-171" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.04;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-157" target="WFRxThqdzMOGrH6SurRp-160">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="107" y="2141" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-172" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-158" target="WFRxThqdzMOGrH6SurRp-160">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-173" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.04;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-159" target="WFRxThqdzMOGrH6SurRp-160">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="553" y="2141" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-174" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-160" target="WFRxThqdzMOGrH6SurRp-161">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="200" y="2240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-175" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-160" target="WFRxThqdzMOGrH6SurRp-162">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="459" y="2240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-176" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-161" target="WFRxThqdzMOGrH6SurRp-163">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-177" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-162" target="WFRxThqdzMOGrH6SurRp-164">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-178" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.03;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-163" target="WFRxThqdzMOGrH6SurRp-165">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="200" y="2437" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-179" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.97;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-164" target="WFRxThqdzMOGrH6SurRp-165">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="459" y="2437" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFRxThqdzMOGrH6SurRp-180" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-165" target="WFRxThqdzMOGrH6SurRp-166">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
