@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Ezj51xKV8Iy4E_lezaTM">
-    <mxGraphModel dx="2035" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2862" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,40 +23,40 @@
           <mxGeometry x="23" y="1318" width="1444" height="99" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-4" value="表现层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1169" width="1980" height="99" as="geometry" />
+          <mxGeometry x="-190" y="1070" width="1980" height="99" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-5" value="MainFrame" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1194" width="139" height="49" as="geometry" />
+          <mxGeometry x="-89" y="1095" width="139" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-6" value="SidebarPanel" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="639" y="1194" width="152" height="49" as="geometry" />
+          <mxGeometry x="99" y="1095" width="152" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-7" value="员工管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="842" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="302" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-8" value="部门管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1016" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="476" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-9" value="考勤管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="650" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-10" value="薪资管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1364" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="824" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-11" value="培训管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1538" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="998" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-12" value="合同管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1712" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="1172" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-13" value="统计报表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1886" y="1194" width="124" height="49" as="geometry" />
+          <mxGeometry x="1346" y="1095" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-14" value="图表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="1194" width="92" height="49" as="geometry" />
+          <mxGeometry x="1520" y="1095" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-15" value="导出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2202" y="1194" width="92" height="49" as="geometry" />
+          <mxGeometry x="1662" y="1095" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="WFRxThqdzMOGrH6SurRp-16" value="IEmployeeService" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="58" y="1343" width="186" height="49" as="geometry" />
