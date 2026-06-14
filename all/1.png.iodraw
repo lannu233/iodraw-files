@@ -13,6 +13,104 @@
             <mxPoint x="187.00000000000023" y="1754" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-257" value="输入图像" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="165" y="360" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-258" value="CNN前向传播" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="150" y="459" width="155" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-259" value="卷积层特征图 A^k" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="243" y="557" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-260" value="类别得分 y^c" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="557" width="153" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-261" value="反向传播计算梯度" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="32" y="656" width="189" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-262" value="全局平均池化 → 权重 α_k^c" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="755" width="214" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-263" value="加权求和 + ReLU" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="138" y="871" width="179" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-264" value="插值对齐到原图尺寸" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="125" y="970" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-265" value="伪彩色叠加到原图" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="133" y="1068" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-266" value="Grad-CAM热力图" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="138" y="1167" width="179" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-267" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-257" target="WFRxThqdzMOGrH6SurRp-258">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-268" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-258" target="WFRxThqdzMOGrH6SurRp-259">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="337" y="532" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-269" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-258" target="WFRxThqdzMOGrH6SurRp-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="532" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-270" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.48;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-260" target="WFRxThqdzMOGrH6SurRp-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-271" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.79;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-259" target="WFRxThqdzMOGrH6SurRp-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="237" y="631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-272" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-261" target="WFRxThqdzMOGrH6SurRp-262">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-273" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.22;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-262" target="WFRxThqdzMOGrH6SurRp-263">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="846" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-274" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0.83;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-259" target="WFRxThqdzMOGrH6SurRp-263">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="631" />
+              <mxPoint x="347" y="846" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-275" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-263" target="WFRxThqdzMOGrH6SurRp-264">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-276" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-264" target="WFRxThqdzMOGrH6SurRp-265">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFRxThqdzMOGrH6SurRp-277" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=20;" edge="1" parent="1" source="WFRxThqdzMOGrH6SurRp-265" target="WFRxThqdzMOGrH6SurRp-266">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
