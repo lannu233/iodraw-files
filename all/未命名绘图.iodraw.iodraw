@@ -1,0 +1,152 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="ds3Yx7QpQ88BMrxdtgAX">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XD21IczksVaOrUKhYgS1-1" value="第四层：图形渲染层 帧缓冲管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="381" y="587" width="311" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-2" value="第三层：共享数据层 临界资源" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="45" width="326" height="467" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-3" value="g_cars[50] 进程表Process Table" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="XD21IczksVaOrUKhYgS1-2">
+          <mxGeometry x="51" y="43" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-4" value="g_phase 全局内核状态变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="XD21IczksVaOrUKhYgS1-2">
+          <mxGeometry x="46" y="159" width="251" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-5" value="g_queue_count[4] 阻塞队列计数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="XD21IczksVaOrUKhYgS1-2">
+          <mxGeometry x="76" y="258" width="189" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-6" value="g_passed_count[4] 进程执行统计" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="XD21IczksVaOrUKhYgS1-2">
+          <mxGeometry x="74" y="374" width="193" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-7" value="第二层：同步原语层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="712" y="587" width="1560" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-8" value="第一层：进程/线程层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="381" y="20" width="1739" height="517" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-9" value="红绿灯线程 traffic_light_thread&#xa;内核级守护线程 6阶段循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1835" y="237" width="249" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-10" value="车辆生成器 car_generator&#xa;fork/exec进程创建原语" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="708" y="246" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-11" value="车辆线程#1 car_thread&#xa;4状态状态机 PCB模拟" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1012" y="246" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-12" value="车辆线程#2 car_thread&#xa;4状态状态机" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="246" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-13" value="车辆线程#N car_thread&#xa;4状态状态机" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="246" width="226" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-14" value="主线程 GDI渲染+消息循环&#xa;Shell/GUI事件循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="416" y="246" width="242" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-15" value="g_hIntersection&#xa;路口Mutex 保护临界区" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="747" y="630" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-16" value="g_hLightMutex&#xa;灯态Mutex 保护g_phase" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1159" y="630" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-17" value="g_hQueueLockx4&#xa;方向队列Mutex 细粒度锁" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="630" width="237" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-18" value="g_csLog&#xa;日志CRITICAL_SECTION&#xa;先自旋后睡眠混合策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2012" y="621" width="225" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-19" value="GDI双缓冲 CreateCompatibleDC&#xa;CreateCompatibleBitmap BitBlt" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="416" y="612" width="241" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.4;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-11" target="XD21IczksVaOrUKhYgS1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="804" y="537" />
+              <mxPoint x="804" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.73;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-12" target="XD21IczksVaOrUKhYgS1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="974" y="537" />
+              <mxPoint x="974" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1;entryX=0.77;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-13" target="XD21IczksVaOrUKhYgS1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="994" y="537" />
+              <mxPoint x="994" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=1;entryX=0.01;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-11" target="XD21IczksVaOrUKhYgS1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1014" y="537" />
+              <mxPoint x="1014" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=0.29;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-12" target="XD21IczksVaOrUKhYgS1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1161" y="537" />
+              <mxPoint x="1161" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.75;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-13" target="XD21IczksVaOrUKhYgS1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1406" y="537" />
+              <mxPoint x="1406" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=1;entryY=0.18;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-9" target="XD21IczksVaOrUKhYgS1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1684" y="537" />
+              <mxPoint x="1684" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.24;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-11" target="XD21IczksVaOrUKhYgS1-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1704" y="537" />
+              <mxPoint x="1704" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1;entryX=0.28;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-12" target="XD21IczksVaOrUKhYgS1-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1724" y="537" />
+              <mxPoint x="1724" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=1;entryX=0.62;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-13" target="XD21IczksVaOrUKhYgS1-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1906" y="537" />
+              <mxPoint x="1906" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD21IczksVaOrUKhYgS1-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="XD21IczksVaOrUKhYgS1-14" target="XD21IczksVaOrUKhYgS1-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
