@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-9" value="③ 可区分性驱动的域对齐" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="370" y="639" width="1438" height="269" as="geometry" />
+          <mxGeometry x="550" y="510" width="1438" height="269" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-10" value="② 检测阶段（YOLO 定位）" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="860" y="41" width="719" height="283" as="geometry" />
@@ -84,25 +84,25 @@
           <mxGeometry x="1376" y="164" width="178" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-22" value="目标域各实例裁剪" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="395" y="736" width="188" height="49" as="geometry" />
+          <mxGeometry x="575" y="607" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-23" value="计算类别颜色离散度 D" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="633" y="736" width="219" height="49" as="geometry" />
+          <mxGeometry x="813" y="607" width="219" height="49" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-24" value="类别感知对齐&#xa;逐类消除色差·保留判别色差" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1008" y="674" width="258" height="66" as="geometry" />
+          <mxGeometry x="1188" y="545" width="258" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-25" value="全局对齐 + LBP 纹理增强" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1018" y="820" width="237" height="49" as="geometry" />
+          <mxGeometry x="1198" y="691" width="237" height="49" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-26" value="RGB + LBP 四通道输入" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1315" y="736" width="218" height="49" as="geometry" />
+          <mxGeometry x="1495" y="607" width="218" height="49" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-27" target="vtq8lb2LXJab7P2hq6r7-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-27" value="DANN 对抗域自适应&#xa;梯度反转层" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1583" y="728" width="201" height="66" as="geometry" />
+          <mxGeometry x="1763" y="599" width="201" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=20;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-12" target="vtq8lb2LXJab7P2hq6r7-13">
           <mxGeometry relative="1" as="geometry">
@@ -167,28 +167,28 @@
         <mxCell id="vtq8lb2LXJab7P2hq6r7-38" value="D ≥ 阈值 25" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=0.01;entryX=0;entryY=0.5;rounded=0;fontSize=20;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-23" target="vtq8lb2LXJab7P2hq6r7-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="930" y="707" />
+              <mxPoint x="1110" y="578" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-39" value="D &amp;lt; 阈值 25" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.5;rounded=0;fontSize=20;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-23" target="vtq8lb2LXJab7P2hq6r7-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="930" y="844" />
+              <mxPoint x="1110" y="715" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.22;entryY=0.01;rounded=0;fontSize=20;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-24" target="vtq8lb2LXJab7P2hq6r7-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1290" y="707" />
+              <mxPoint x="1470" y="578" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.32;entryY=1;rounded=0;fontSize=20;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-25" target="vtq8lb2LXJab7P2hq6r7-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1290" y="844" />
+              <mxPoint x="1470" y="715" />
             </Array>
           </mxGeometry>
         </mxCell>
