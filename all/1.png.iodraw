@@ -65,8 +65,13 @@
         <mxCell id="vtq8lb2LXJab7P2hq6r7-16" value="合成散落粒数据集" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="579" y="138" width="189" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="UwtPxOW2yCYACzf9jui5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-17" target="vtq8lb2LXJab7P2hq6r7-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UwtPxOW2yCYACzf9jui5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="vtq8lb2LXJab7P2hq6r7-17" target="vtq8lb2LXJab7P2hq6r7-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="420" />
+              <mxPoint x="285" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-17" value="真实域数据集&#xa;玉米 728/718 粒 · 小麦 50/50 图" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="561" y="282" width="224" height="84" as="geometry" />
