@@ -14,13 +14,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-1" value="⑤ 评估" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1715.5" y="1200" width="309" height="141" as="geometry" />
+          <mxGeometry x="2073" y="1070" width="309" height="141" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-2" value="准确率 · 每类 F1 · mAP&#xa;玉米 67.8% vs 基线 41.5%" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="vtq8lb2LXJab7P2hq6r7-1">
           <mxGeometry x="43" y="46" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-3" value="④ 分类阶段" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1342.5" y="1050" width="324" height="441" as="geometry" />
+          <mxGeometry x="1700" y="920" width="324" height="441" as="geometry" />
         </mxCell>
         <mxCell id="vtq8lb2LXJab7P2hq6r7-4" value="ResNet50 / ConvNeXt&#xa;GrainSpace 预训练 → 真实域微调" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="vtq8lb2LXJab7P2hq6r7-3">
           <mxGeometry x="63" y="46" width="214" height="84" as="geometry" />
